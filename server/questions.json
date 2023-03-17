@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the opposite of 'hot'?",
+    "answer": "Cold",
+    "options": [
+      {"text": "Dry", "isCorrect": false},
+      {"text": "Wet", "isCorrect": false},
+      {"text": "Warm", "isCorrect": false},
+      {"text": "Cold", "isCorrect": true}
+    ]
+  },
+  {
+    "question": "What is the name of the largest continent?",
+    "answer": "Asia",
+    "options": [
+      {"text": "North America", "isCorrect": false},
+      {"text": "Africa", "isCorrect": false},
+      {"text": "Asia", "isCorrect": true},
+      {"text": "Europe", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the primary gas that makes up the Earth's atmosphere?",
+    "answer": "Nitrogen",
+    "options": [
+      {"text": "Oxygen", "isCorrect": false},
+      {"text": "Carbon dioxide", "isCorrect": false},
+      {"text": "Nitrogen", "isCorrect": true},
+      {"text": "Argon", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the currency used in Japan?",
+    "answer": "Yen",
+    "options": [
+      {"text": "Dollar", "isCorrect": false},
+      {"text": "Yen", "isCorrect": true},
+      {"text": "Euro", "isCorrect": false},
+      {"text": "Pound", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the name of the largest ocean?",
+    "answer": "Pacific",
+    "options": [
+      {"text": "Atlantic", "isCorrect": false},
+      {"text": "Indian", "isCorrect": false},
+      {"text": "Arctic", "isCorrect": false},
+      {"text": "Pacific", "isCorrect": true}
+    ]
+  },
+  {
+    "question": "What is the smallest planet in our solar system?",
+    "answer": "Mercury",
+    "options": [
+      {"text": "Venus", "isCorrect": false},
+      {"text": "Mars", "isCorrect": false},
+      {"text": "Mercury", "isCorrect": true},
+      {"text": "Neptune", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the highest mountain in the world?",
+    "answer": "Everest",
+    "options": [
+      {"text": "K2", "isCorrect": false},
+      {"text": "Kilimanjaro", "isCorrect": false},
+      {"text": "Everest", "isCorrect": true},
+      {"text": "Denali", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the largest animal on Earth?",
+    "answer": "Blue whale",
+    "options": [
+      {"text": "Elephant", "isCorrect": false},
+      {"text": "Giraffe", "isCorrect": false},
+      {"text": "Blue whale", "isCorrect": true},
+      {"text": "Hippopotamus", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the name of the seventh planet from the Sun?",
+    "answer": "Uranus",
+    "options": [
+       {"text": "Venus", "isCorrect": false},
+      {"text": "Pluto", "isCorrect": false},
+      {"text": "Uranus", "isCorrect": true},
+      {"text": "Jupiter", "isCorrect": false}
+    ]
+  },
+   {
+    "question": "What is the name of the largest moon of Jupiter?",
+    "answer": "Ganymede",
+    "options": [
+      {"text": "Europa", "isCorrect": false},
+      {"text": "Callisto", "isCorrect": false},
+      {"text": "Titan", "isCorrect": false},
+      {"text": "Ganymede", "isCorrect": true}
+    ]
+  }
+]
