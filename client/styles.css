@@ -38,7 +38,7 @@ min-height: 100vh;
 
 
 /* Von Webite kopiert https://getcssscan.com/css-buttons-examples */
-#button-28 {
+#button-1,#button-2,#button-3,#button-4 {
   appearance: none;
   background-color: transparent;
   border: 2px solid #1A1A1A;
@@ -65,18 +65,18 @@ min-height: 100vh;
   will-change: transform;
 }
 
-.button-28:disabled {
+#button-1:disabled,#button-2:disabled,#button-3:disabled,#button-4:disabled {
   pointer-events: none;
 }
 
-.button-28:hover {
+#button-1:hover,#button-2:hover,#button-3:hover,#button-4:hover {
   color: #fff;
   background-color: #1A1A1A;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
 
-.button-28:active {
+#button-1:active,#button-2:active,#button-3:active,#button-4:active {
   box-shadow: none;
   transform: translateY(0);
 }
