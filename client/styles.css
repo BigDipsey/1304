@@ -1,30 +1,34 @@
-
 .questionBox{
-    display: grid;
-    grid-area: Box;
-    justify-content: center;
-    padding-bottom: 300px;
+  display: grid;
+  grid-area: Box;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  padding-bottom: 130px;
+
 }
 
 Title{
-    display: grid; 
-    grid-area: Title;
-    justify-content: center;
-    
+  display: grid; 
+  grid-area: Title;
+  justify-content: center;
+
 }
 
 .answers{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 .buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    min-width: 100%;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  gap: 10px;
 }
 
 .container{
@@ -37,22 +41,34 @@ min-height: 100vh;
 }
 
 
+
+.playDiv{
+display: flex;
+justify-content: center;
+justify-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+
+}
 /* Von Webite kopiert https://getcssscan.com/css-buttons-examples */
-#button-1,#button-2,#button-3,#button-4 {
+#button-23 {
   appearance: none;
   background-color: transparent;
   border: 2px solid #1A1A1A;
-  border-radius: 15px;
+  border-radius: 20px;
   box-sizing: border-box;
-  color: #3B3B3B;   
+  color: #3B3B3B;
   cursor: pointer;
   display: inline-block;
   font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 16px;
+  font-size: 30px;
   font-weight: 600;
   line-height: normal;
   margin: 0;
-  min-height: 150px;
+  min-height: 3rem;
   outline: none;
   padding: 16px 24px;
   text-align: center;
@@ -61,27 +77,66 @@ min-height: 100vh;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
+  width:100%;
   will-change: transform;
-}
+  }
 
-#button-1:disabled,#button-2:disabled,#button-3:disabled,#button-4:disabled {
+  #button-23:disabled {
   pointer-events: none;
-}
+  }
 
-#button-1:hover,#button-2:hover,#button-3:hover,#button-4:hover {
+  #button-23:hover {
   color: #fff;
   background-color: #1A1A1A;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
-}
+  }
 
-#button-1:active,#button-2:active,#button-3:active,#button-4:active {
+  #button-23:active {
   box-shadow: none;
   transform: translateY(0);
-}
+  }
 
-
-.button-1{
-  background-color: aqua;
-}
+  #button-1,#button-2,#button-3,#button-4 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 150px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+  }
+  
+  #button-1:disabled,#button-2:disabled,#button-3:disabled,#button-4:disabled {
+    pointer-events: none;
+  }
+  
+  #button-1:hover,#button-2:hover,#button-3:hover,#button-4:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  #button-1:active,#button-2:active,#button-3:active,#button-4:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  

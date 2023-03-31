@@ -1,12 +1,26 @@
 import { CheckAnswer } from './checkAnswer.js'
 
+// let body = document.querySelector('body')
+// body.innerHTML = ''
+
+// let playButton = document.createElement('button')
+// playButton.addEventListener('click', () => Game(0))
+// playButton.classList.add('playButton')
+// playButton.textContent = 'You want to play? Lets play!'
+
 let body = document.querySelector('body')
 body.innerHTML = ''
 
+let divButton = document.createElement('div')
+divButton.classList.add('playDiv')
 let playButton = document.createElement('button')
-playButton.addEventListener('click', Game(0))
 playButton.classList.add('playButton')
+playButton.id = 'button-23'
+playButton.addEventListener('click', () => Game(0))
+
 playButton.textContent = 'You want to play? Lets play!'
+divButton.append(playButton)
+body.append(divButton)
 
 body.append(playButton)
 
@@ -53,22 +67,22 @@ export function Game(i) {
       `
       let checkAnswer1 = document.getElementById('button-1')
       checkAnswer1.addEventListener('click', () =>
-        CheckAnswer(answer1IsCorrect, i, answer1Id)
+        CheckAnswer(answer1IsCorrect, i, answer1Id, answer1)
       )
 
       let checkAnswer2 = document.getElementById('button-2')
       checkAnswer2.addEventListener('click', () =>
-        CheckAnswer(answer2IsCorrect, i, answer2Id)
+        CheckAnswer(answer2IsCorrect, i, answer2Id, answer2)
       )
 
       let checkAnswer3 = document.getElementById('button-3')
       checkAnswer3.addEventListener('click', () =>
-        CheckAnswer(answer3IsCorrect, i, answer3Id)
+        CheckAnswer(answer3IsCorrect, i, answer3Id, answer3)
       )
 
       let checkAnswer4 = document.getElementById('button-4')
       checkAnswer4.addEventListener('click', () =>
-        CheckAnswer(answer4IsCorrect, i, answer4Id)
+        CheckAnswer(answer4IsCorrect, i, answer4Id, answer4)
       )
     })
 }
