@@ -1,8 +1,6 @@
 const mongoose = require('mongoose')
 const express = require('express')
 const cors = require('cors')
-const dotenv = require('dotenv')
-dotenv.config()
 
 const app = express()
 
@@ -17,9 +15,13 @@ const question = mongoose.model('generalquestion', frageSchema)
 
 mongoose.set('strictQuery', false)
 
-mongoose.connect(`${process.env.DATABASE_URL}`).then(() => {
-  console.log('Connected to database')
-})
+mongoose
+  .connect(
+    `mongodb+srv://Elvis:BigDipsey@cluster.rkr89yd.mongodb.net/LA1304(Quiz)?retryWrites=true&w=majority`
+  )
+  .then(() => {
+    console.log('Connected to database')
+  })
 
 app.get('/questions', (req, res) => {
   question
