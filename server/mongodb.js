@@ -15,6 +15,8 @@ const frageSchema = new mongoose.Schema({
 
 const question = mongoose.model('generalquestion', frageSchema)
 
+mongoose.set('strictQuery', false)
+
 mongoose.connect(`${process.env.DATABASE_URL}`).then(() => {
   console.log('Connected to database')
 })

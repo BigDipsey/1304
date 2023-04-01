@@ -1,13 +1,5 @@
 import { CheckAnswer } from './checkAnswer.js'
 
-// let body = document.querySelector('body')
-// body.innerHTML = ''
-
-// let playButton = document.createElement('button')
-// playButton.addEventListener('click', () => Game(0))
-// playButton.classList.add('playButton')
-// playButton.textContent = 'You want to play? Lets play!'
-
 let body = document.querySelector('body')
 body.innerHTML = ''
 
